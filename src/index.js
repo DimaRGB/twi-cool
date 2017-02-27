@@ -9,7 +9,7 @@ import ApolloClient, { createNetworkInterface } from 'apollo-client'
 import { ApolloProvider } from 'react-apollo'
 import 'tachyons'
 
-const networkInterface = createNetworkInterface({ uri: 'https://api.graph.cool/simple/v1/cizi238va7rel0144v6u7rzrf' })
+const networkInterface = createNetworkInterface({ uri: 'https://api.graph.cool/simple/v1/ciznt0hbcxrpu0108po9sa9tj' })
 
 networkInterface.use([{
   applyMiddleware (req, next) {
